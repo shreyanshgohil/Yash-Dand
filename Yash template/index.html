@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yash Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="css/genral.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/UI.css" />
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <!-- <header class="header flex">
+    <img src="images/Shape-top.png" alt="" class="nav__shape--top">
+    <div class="navigation__logo--box">
+      <img src="images/logo.png" alt="" class="navigation--logo" />
+    </div>
+    <nav class="navigation flex">
+      <ul class="navigation__links flex">
+        <li class="navigation__link--title">
+          <a href="#" class="navigation__link">Home</a>
+        </li>
+        <li class="navigation__link--title">
+          <a href="#" class="navigation__link">Menu</a>
+        </li>
+        <li class="navigation__link--title">
+          <a href="#" class="navigation__link">Our Story</a>
+        </li>
+        <li class="navigation__link--title">
+          <a href="#" class="navigation__link">Contact Us</a>
+        </li>
+        <div class="navigation__search flex relative">
+          <input type="text" class="navigation__search--box" />
+          <button class="navigation__search--button absolute btn">
+            <ion-icon name="search-sharp" class="icon-search"></ion-icon>
+          </button>
+        </div>
+        
+      </ul>
+    </nav>
+    <button class="btn btn-mobile-nav mobile-helper">
+      <ion-icon name="menu-outline" class="btn-mobile-nav"></ion-icon>
+      <ion-icon name="close" class="btn-mobile-nav"></ion-icon>
+    </button>
+  </header>
+ -->
+  <header class="header">
+    <img src="images/logo.png" class="logo-navigation" alt="">
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a href="#" class="main-nav-link">Home</a></li>
+        <li><a href="#" class="main-nav-link">Menu</a></li>
+        <li><a href="#" class="main-nav-link">Our Story</a></li>
+        <li><a href="#" class="main-nav-link">Contact - us</a></li>
+        <li>
+          <div class="search--box">
+            <input type="text" class="search--input">
+            <button class="search">
+              <ion-icon name="search-sharp" class="search__icon"></ion-icon>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-sharp"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+  </header>
+  <!-- Section Hero -->
+
+  <section class="hero relative">
+    <img src="images/Shape-top.png" alt="" class="hero__iamge--top absolute">
+    <div class="hero__image--box">
+      <img src="images/slid.png" alt="" class="hero__image">
+    </div>
+    <div class="hero__containt--box absolute">
+      <h1 class="hero__heading--main">It's Time <br> for Hiking</h1>
+      <h4 class="hero__heading--second">Lorem ipsum dolor</h4>
+      <button class="hero__button animation__button btn relative">Read more</button>
+      <p class="hero__desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sed cupiditate harum, nisi similique ullam
+        excepturi dolorum, provident molestias vitae est ea eius, dicta voluptas esse accusantium ipsa dolorem dolor.
+      </p>
+    </div>
+    <div class="hero__iamge__bottom--box ">
+      <img src="images/Shape-bottum.png" alt="" class="hero__iamge--bottom absolute">
+    </div>
+  </section>
+
+  <!------------------------ Available Section Tours ------------------------------>
+
+  <section class="tours relative">
+
+    <div class="tours__data">
+      <h2 class="section__title tours__title">LET'S GO</h2>
+      <p class="tours_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iusto a modi.
+        Molestiae nulla tenetur .</p>
+    </div>
+
+    <div class="tour__cards container grid grid-3-col">
+
+      <!-- Card 1 -->
+
+      <div class="tour__card">
+        <figure class="card__image--box">
+          <img src="images/Pl3.png" alt="Image of lady who seat on the top of mounton" class="card__image">
+        </figure>
+        <div class="tour__data--box">
+          <h3 class="tour--title">Lorem ipsum</h3>
+          <p class="tour__data">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, nulla, odit dolores
+            velit culpa quo deleniti </p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+
+      <div class="tour__card">
+        <figure class="card__image--box">
+          <img src="images/Pl3.png" alt="Image of lady who seat on the top of mounton" class="card__image">
+        </figure>
+        <div class="tour__data--box">
+          <h3 class="tour--title">Lorem ipsum</h3>
+          <p class="tour__data">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, nulla, odit dolores
+            velit culpa quo deleniti </p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+
+      <div class="tour__card grid-helper">
+        <figure class="card__image--box">
+          <img src="images/Pl3.png" alt="Image of lady who seat on the top of mounton" class="card__image">
+        </figure>
+        <div class="tour__data--box">
+          <h3 class="tour--title">Lorem ipsum</h3>
+          <p class="tour__data">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, nulla, odit dolores
+            velit culpa quo deleniti </p>
+        </div>
+      </div>
+    </div>
+    <img src="images/Design.png" alt="" class="absolute bg-img">
+    <div class="center">
+      <button class="tours__show--all animation__button btn relative">Show all</button>
+    </div>
+  </section>
+
+  <!-- Section - Discount -->
+
+  <section class="discount discount__grid grid grid-2-col">
+    <!-- Col -1  -->
+    <div class="discount__image--box">
+      <img src="images/dis1.png" class="discount__image" alt="pic of some childs which stand on mountain">
+    </div>
+    <!-- Col - 2  -->
+    <div class="discount__description flex">
+      <h2 class="discount__title section__title">Discount upto 50% on all Excursions</h2>
+      <p class="discount__description--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero
+        earum rem, excepturi quod mollitia
+        tempore porro architecto ullam a quibusdam neque doloremque dolore nihil rerum praesentium, soluta, ratione
+        et.</p>
+      <button class="discription--details animation__button btn relative">Read More</button>
+    </div>
+
+    <!-- Col - 3 -->
+    <div class="discount__description discount__description--helper flex">
+      <h2 class="discount__title section__title">Discount upto 50% on all Excursions</h2>
+      <p class="discount__description--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero
+        earum rem, excepturi quod mollitia
+        tempore porro architecto ullam a quibusdam neque doloremque dolore nihil rerum praesentium, soluta, ratione
+        et.</p>
+      <button class="discription--details--2 animation__button btn relative">Read More</button>
+    </div>
+    <!-- Col -4  -->
+    <div class="discount__image--box">
+      <img src="images/dis1.png" class="discount__image" alt="pic of some childs which stand on mountain">
+    </div>
+  </section>
+
+  <!-- Section Moution statement -->
+
+  <section class="moution relative">
+    <div class="moution__top">
+      <img src="images/Shape-top.png" alt="shape-top" class="shape__top">
+      <div class="moution__design">
+        <img src="images/Design.png" alt="design" class="moution__design--img">
+        <div class="moution__text--box absolute center">
+          <h3 class="moution__text--title">Hiking in the mountains</h3>
+          <p class="moution__text--description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil sunt
+            enim culpa unde a hic atque. Tempora molestias corrupti fuga, magnam magni, amet quis aperiam quos vero,
+            blanditiis maiores perspiciatis.</p>
+        </div>
+      </div>
+      <img src="images/Shape-bottum.png" alt="shape-b" class="shape__bottum">
+    </div>
+  </section>
+
+  <!-- Section explore world -->
+
+  <section class="explore relative">
+    <img src="images/Shape-top.png" alt="shape-top" class="shape__top shape__top--helper absolute">
+    <div class="explore__design">
+      <img src="images/explore.png" alt="explore__done" class="explore__design--img">
+      <div class="explore__text--box absolute">
+        <h3 class="explore__text"><span>explore</span><br><span>The World</span></h3>
+      </div>
+    </div>
+    <img src="images/Shape-bottum.png" alt="shape-b" class="shape__bottum shape__bottum--helper absolute">
+  </section>
+
+  <!-------------------------------- Section Lorem  ------------------------------->
+
+  <section class="lorem relative">
+    <div class="lorem__grid grid-helper grid grid-3-col container">
+      <!-- card 1 -->
+      <div class="lorem__card">
+        <h3 class="lorem__title">lorem ipsum</h3>
+        <p class="lorem__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste suscipit beatae
+          similique. Natus iste commodi reiciendis accusantium dolorem esse numquam laboriosam, perspiciatis doloremque
+          ea in obcaecati quasi. Ipsam, vel rerum!</p>
+      </div>
+      <!-- card 2 -->
+      <div class="lorem__card">
+        <h3 class="lorem__title">Lorem ipsum</h3>
+        <p class="lorem__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste suscipit beatae
+          similique. Natus iste commodi reiciendis accusantium dolorem esse numquam laboriosam, perspiciatis doloremque
+          ea in obcaecati quasi. Ipsam, vel rerum!</p>
+      </div>
+      <!-- card 3 -->
+      <div class="lorem__card grid-helper">
+        <h3 class="lorem__title">Lorem ipsum</h3>
+        <p class="lorem__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste suscipit beatae
+          similique. Natus iste commodi reiciendis accusantium dolorem esse numquam laboriosam, perspiciatis doloremque
+          ea in obcaecati quasi. Ipsam, vel rerum!</p>
+      </div>
+    </div>
+    <div class="lorem__img--box flex">
+      <img src="images/Shadow.png" alt="" class="lorem--shadow">
+    </div>
+    <div class="lorem__text--box absolute center">
+      <span class="lorem_quot">&bdquo;</span>
+      <span class="lorem__description__quot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, omnis
+        deserunt libero cum facilis iure quod labore unde, mollitia voluptates sequi sint, quam rerum soluta eos.
+        Blanditiis sit voluptatum veniam?</span>
+      <a href="#" class="lorem__link">Lorem ipsum &rarr;</a>
+    </div>
+  </section>
+
+  <!-------------------------------- Section CTA  ------------------------------->
+  <section class="cta relative">
+    <img src="images/shreyansh-top.png" alt="" class="shreyansh__top">
+    <div class="text">
+      <div class="text--box relative">
+        <div class="text--container container absolute center">
+          <h3 class="text--title">Title Here</h3>
+          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt eligendi fugit vero
+            expedita repellat rerum amet consectetur tempora maxime?</p>
+          <div class="text--mail">
+            <input type="text" class="text__input" placeholder="shreyanshgohil2510@gmail.com">
+            <button class="text__submit animation__button">Subscibe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="images/shreyansh-bottom.png" alt="" class="shreyansh__bottom">
+  </section>
+
+  <!-------------------------------- Footer  ---------------------------------------->
+  <footer class="footer relative">
+    <img src="images/Shape-top.png" alt="" class="shreyansh__top">
+
+    <div class="footer__container ">
+      <div class="footer__container--data absolute grid grid-4-col">
+        <div class="footer__container--data--1">
+          <ul class="footer__data">
+            <li>
+              <h3 class="footer__title">Title Here</h3>
+            </li>
+            <li>
+              <p class="footer__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum inventore,
+                suscipit dolorum temporibus minima, quaerat.</p>
+            </li>
+            <li>
+              <div class="logos flex">
+                <a href="https://www.instagram.com/shreyansh_gohil2610/" target="__blank" class="logo__link">
+                  <ion-icon name="logo-facebook" class="logo__footer"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/shreyansh_gohil2610/" target="__blank" class="logo__link">
+                  <ion-icon name="logo-instagram" class="logo__footer"></ion-icon>
+                </a>
+                <a href="https://github.com/shreyanshgohil" target="__blank" class="logo__link">
+                  <ion-icon name="logo-github" class="logo__footer"></ion-icon>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- #2 -->
+        <div class="footer__container--data--1">
+          <ul class="footer__data">
+            <li>
+              <h3 class="footer__title">About</h3>
+            </li>
+            <li>
+              <div class="footer__links flex">
+                <a href="#" class="footer__link">History</a>
+                <a href="#" class="footer__link">Our Team</a>
+                <a href="#" class="footer__link">Brand Guidelines</a>
+                <a href="#" class="footer__link">Terms & condition</a>
+                <a href="#" class="footer__link">Privarcy & Policy</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- #3 -->
+        <div class="footer__container--data--1">
+          <ul class="footer__data">
+            <li>
+              <h3 class="footer__title">Services</h3>
+            </li>
+            <li>
+              <div class="footer__links flex">
+                <a href="#" class="footer__link">How to order</a>
+                <a href="#" class="footer__link">Our Product</a>
+                <a href="#" class="footer__link">Order Status</a>
+                <a href="#" class="footer__link">Promo</a>
+                <a href="#" class="footer__link">Payment Method</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- #4 -->
+        <div class="footer__container--data--1">
+          <ul class="footer__data">
+            <li>
+              <h3 class="footer__title">Others</h3>
+            </li>
+            <li>
+              <div class="footer__links flex">
+                <a href="#" class="footer__link">Contact Us</a>
+                <a href="#" class="footer__link">Help</a>
+                <a href="#" class="footer__link">Privercy</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="javaScript/index.js"></script>
+</body>
+
+</html>

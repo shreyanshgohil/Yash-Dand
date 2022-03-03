@@ -1,0 +1,71 @@
+.animation__button {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 1rem 2.4rem;
+  border-radius: 20000px;
+  margin: 0 0 3.2rem 1.2rem;
+  display: inline-block;
+  z-index: 1 !important;
+}
+
+.animation__button::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 2000px;
+  z-index: -1;
+  display: block;
+  transition: all 0.3s;
+}
+.animation__button:hover::after {
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+.section__title {
+  font-size: 4.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.shape__top,
+.shape__bottum {
+  width: 100%;
+  display: block;
+}
+
+.shape__top--helper {
+  left: 0;
+  top: -10%;
+}
+
+.shape__bottum--helper {
+  left: 0;
+  bottom: 0;
+}
+
+.container {
+  max-width: 120rem;
+}
+
+.shreyansh__top,
+.shreyansh__bottom {
+  display: block;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.shreyansh__top {
+  top: 0;
+}
+
+.shreyansh__bottom {
+  bottom: 0;
+}
+
